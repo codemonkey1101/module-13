@@ -103,7 +103,7 @@ approx_threshold = -approx_beta0 / approx_beta1
 def sigmoid(beta0, beta1, x) :
     return 1 / (1 + np.exp(-beta0 - beta1*x))
 
-// char output
+// chart output
 x = np.linspace(3, 7)
 plt.figure(figsize=(8, 6))
 plt.scatter( X1, np.zeros(50), label='versicolor' )
